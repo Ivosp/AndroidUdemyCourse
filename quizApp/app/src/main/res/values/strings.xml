@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Quiz Apps</string>
+
+    <string name="correct_text">Correct!</string>
+    <string name="incorrect_text">Incorrect!</string>
+    <string name="first_score_text">0/10</string>
+    <string name="correct_toast_message">Great!</string>
+    <string name="incorrect_toast_message">False!</string>
+
+    <string name="q1">Great1!</string>
+    <string name="q2">Great2!</string>
+    <string name="q3">Great!3</string>
+    <string name="q4">Great!4</string>
+    <string name="q5">Great!5</string>
+    <string name="q6">Great!6</string>
+    <string name="q7">Great!7</string>
+    <string name="q8">Great!8</string>
+    <string name="q9">Great!9</string>
+    <string name="q10">Great!10</string>
+
+
+</resources>
