@@ -2,23 +2,35 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <item android:id="@+id/menuAbout"
-        android:icon="@drawable/info"
-        android:title="@string/about"
-        app:showAsAction="ifRoom"
-        />
-
-    <!--
     <item android:id="@+id/menuSettings"
         android:icon="@drawable/menu"
         android:title="Settings"
         app:showAsAction="ifRoom"
-        />
-    -->
+        >
+
+        <menu>
+            <item android:id="@+id/signup"
+                android:title="Sign up" />
+
+            <item android:id="@+id/account"
+                android:title="Account" />
+
+            <item android:id="@+id/menuAbout"
+                android:icon="@drawable/info"
+                android:title="@string/about"
+                app:showAsAction="ifRoom"
+                />
+        </menu>
+
+    </item>
 
     <item android:id="@+id/locationSetter"
         android:icon="@drawable/mylocation"
         android:title="Location!"
         app:showAsAction="ifRoom"
         />
+
+
+
+
 </menu>

@@ -14,9 +14,9 @@
         android:layout_gravity="bottom"
         android:backgroundTint="@color/colorPrimary"
         app:menu="@menu/app_bar_menu"
-        app:navigationIcon="@drawable/menu"
         app:fabAlignmentMode="end"
         />
+
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floatingButton"
